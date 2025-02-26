@@ -1,0 +1,28 @@
+{
+    "skus": {
+        "A": 50,
+        "B": 30,
+        "C": 20,
+        "D": 15
+    },
+    "promotions": [
+        {
+            "type": "FixedPricePromotion",
+            "skuId": "A",
+            "quantityRequired": 3,
+            "fixedPrice": 130
+        },
+        {
+            "type": "FixedPricePromotion",
+            "skuId": "B",
+            "quantityRequired": 2,
+            "fixedPrice": 45
+        },
+        {
+            "type": "ComboPromotion",
+            "skuId1": "C",
+            "skuId2": "D",
+            "comboPrice": 30
+        }
+    ]
+}
